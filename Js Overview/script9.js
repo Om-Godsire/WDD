@@ -23,3 +23,9 @@ console.log(emplyees.skills);
 // add one more skill in employees profile
 emplyees={...emplyees, skills:["swift ui",...emplyees.skills]};
 console.log(JSON.stringify(emplyees.skills,null,3));
+
+// replace analyis with engineer
+
+let role=emplyees.role;
+role[1].title="engineer";
+console.log(JSON.stringify(emplyees.role,null,3));
