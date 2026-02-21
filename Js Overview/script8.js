@@ -23,3 +23,12 @@ for(var i=0;i<user.profile.length && i<user.rating.length;i++)
     const rating=user.rating[i].count;
     console.log(` ${name}: Rating:${rating}`)
 }
+
+let x=user.profile.map(item=>item.name);
+let y=user.rating.map(item=>item.count);
+output ={}
+for(let i=0;i<x.length;i++)
+{
+    output[x[i]]={rating:y[i]}
+}
+console.log(output);
