@@ -1,23 +1,8 @@
 
-let addition=function(a,b)
-{
-    return a+b;
-}
-let subtraction=function(a,b)
-{
-    return a-b;
-}
-let multiply=function(a,b)
-{
-    return a*b;
-}
-let division=function(a,b)
-{
-    return a/b;
-}
-
-
-
+let addition=(a,b)=> a+b;
+let subtraction=(a,b)=> a-b;
+let multiply=(a,b)=>a*b;
+let division=(a,b)=>a/b;
 
 var addn =addition(10,3);
 var subn =subtraction(10,3);

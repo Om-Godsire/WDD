@@ -1,23 +1,20 @@
 
-let addition=function(a,b)
+let addition=(a,b)=>
 {
     return a+b;
 }
-let subtraction=function(a,b)
+let subtraction=(a,b)=>
 {
     return a-b;
 }
-let multiply=function(a,b)
+let multiply=(a,b)=>
 {
     return a*b;
 }
-let division=function(a,b)
+let division=(a,b)=>
 {
     return a/b;
 }
-
-
-
 
 var addn =addition(10,3);
 var subn =subtraction(10,3);
