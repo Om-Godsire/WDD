@@ -20,7 +20,6 @@ _skills[3]="d";
 
 console.log(emplyees.skills);   
 
-
 // add one more skill in employees profile
-emplyees={...emplyees, experience: "2yrs"};
-console.log(JSON.stringify(emplyees,null,3));
+emplyees={...emplyees, skills:["swift ui",...emplyees.skills]};
+console.log(JSON.stringify(emplyees.skills,null,3));
