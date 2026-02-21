@@ -13,4 +13,14 @@ let emplyees={
 // print last three skills
 
 let _skills =[...emplyees.skills];
-console.log(_skills);   
+_skills[0]="a";
+_skills[1]="b";
+_skills[2]="c";
+_skills[3]="d";
+
+console.log(emplyees.skills);   
+
+
+// add one more skill in employees profile
+emplyees={...emplyees, experience: "2yrs"};
+console.log(JSON.stringify(emplyees,null,3));
